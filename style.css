@@ -10,8 +10,8 @@ html,body{
   background: #000;
 }
 .wrapper{
-  height: 50px;
-  width: 200px;
+  height: 100px;
+  width: 360px;
   position: relative;
   background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
   border-radius: 10px;
