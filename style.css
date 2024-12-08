@@ -5,7 +5,7 @@
 }
 html,body{
   display: grid;
-  height: 70%;
+  height: 100%;
   place-items: center;
   background: #000;
 }
@@ -34,7 +34,7 @@ html,body{
   text-align: center;
 }
 .display #time{
-  line-height: 55px;
+  line-height: 85px;
   color: #fff;
   font-size: 50px;
   font-weight: 600;
