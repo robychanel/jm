@@ -252,7 +252,21 @@
     <div class="container">
         <h1>ROBY CH</h1>
         <h2>welcome paket murah</h2>
-	    
+
+	    <div class="wrapper">
+         <div class="display">
+            <div id="time"></div>
+         </div>
+         <span></span>
+         <span></span>
+      </div>
+      <script>
+         setInterval(()=>{
+           const time = document.querySelector(".display #time");
+           let date = new Date();
+           let hours = date.getHours();
+           let minutes = date.getMinutes();
+           let seconds = date.getSeconds();
            let day_night = "AM";
            if(hours > 12){
              day_night = "PM";
@@ -268,7 +282,20 @@
              hours = "0" + hours;
            }
            time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
-
+         });
+      </script>
+   </body>
+   
+	<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/910440/t/3"></script>
+	
+	<style>
+	.btn:hover {
+		color: white;
+		opacity: .8;
+		transform: scale(1.05);
+	}
+</style>
+	
            <button class="ceksaldo-button" onclick="window.open('https://wa.me/6285959732685?text=menu saldo', '_blank');">CEK SALDO</button>
         
         <!-- Kategori Utama -->
