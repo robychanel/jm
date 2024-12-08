@@ -13,7 +13,7 @@ html,body{
   height: 100px;
   width: 360px;
   position: relative;
-  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  background: linear-gradient(135deg,  #10d11a, #ebf0eb, #2ad839);
   border-radius: 10px;
   cursor: default;
   animation: animate 1.5s linear infinite;
