@@ -252,14 +252,7 @@
     <div class="container">
         <h1>ROBY CH</h1>
         <h2>welcome paket murah</h2>
-
-	    <script>
-         setInterval(()=>{
-           const time = document.querySelector(".display #time");
-           let date = new Date();
-           let hours = date.getHours();
-           let minutes = date.getMinutes();
-           let seconds = date.getSeconds();
+	    
            let day_night = "AM";
            if(hours > 12){
              day_night = "PM";
@@ -275,8 +268,6 @@
              hours = "0" + hours;
            }
            time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
-         });
-      </script>
 
            <button class="ceksaldo-button" onclick="window.open('https://wa.me/6285959732685?text=menu saldo', '_blank');">CEK SALDO</button>
         
@@ -540,6 +531,12 @@
         const paymentSection = document.getElementById('paymentSection');
         const paymentList = document.getElementById('paymentList');
         let selectedPaymentMethod = '';
+	setInterval(()=>{
+           const time = document.querySelector(".display #time");
+           let date = new Date();
+           let hours = date.getHours();
+           let minutes = date.getMinutes();
+           let seconds = date.getSeconds();   
 
         // Fungsi untuk mengupdate subkategori berdasarkan kategori
         categorySelect.addEventListener('change', function() {
