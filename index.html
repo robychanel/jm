@@ -21,10 +21,10 @@
            let hours = date.getHours();
            let minutes = date.getMinutes();
            let seconds = date.getSeconds();
-           let day_night = "AM";
+           let day_noon = "AM";
            if(hours > 12){
-             day_night = "PM";
-             hours = hours - 24;
+             day_midnight = "PM";
+             hours = hours - 12;
            }
            if(seconds < 10){
              seconds = "0" + seconds;
