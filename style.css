@@ -26,9 +26,9 @@ html,body{
   transform: translate(-50%, -50%);
 }
 .wrapper .display{
-  z-index: 999;
-  height: 85px;
-  width: 345px;
+  z-index: 555;
+  height: 55px;
+  width: 105px;
   background: #1b1b1b;
   border-radius: 6px;
   text-align: center;
