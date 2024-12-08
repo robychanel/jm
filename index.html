@@ -557,13 +557,7 @@
         const paymentSection = document.getElementById('paymentSection');
         const paymentList = document.getElementById('paymentList');
         let selectedPaymentMethod = '';
-	setInterval(()=>{
-           const time = document.querySelector(".display #time");
-           let date = new Date();
-           let hours = date.getHours();
-           let minutes = date.getMinutes();
-           let seconds = date.getSeconds();   
-
+	    
         // Fungsi untuk mengupdate subkategori berdasarkan kategori
         categorySelect.addEventListener('change', function() {
             const category = this.value;
